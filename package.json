@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-theme-workspace",
   "private": true,
-  "version": "0.0.1",
-  "main": "index.js",
-  "license": "0BSD",
-  "scripts": {
-    "build": "yarn workspace example build"
-  },
+  "name": "gatsby-issue-theme-plugin-jsx",
   "workspaces": [
-    "gatsby-theme-minimal",
-    "example"
-  ]
+    "gatsby-site",
+    "gatsby-theme-theme"
+  ],
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
 }
